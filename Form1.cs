@@ -38,12 +38,21 @@ namespace CatchButton
 
                 // 5. 시각적 피드백 (폼 제목 표시줄에 좌표 출력)
                 this.Text = $"버튼 위치: ({nextX}, {nextY})";
+
+                // 6. 추가: 마우스 커서를 손 모양(Hand)으로 변경
+                myTarget.Cursor = Cursors.Hand;
+
+                // 7. 추가: 도망갈 때 효과음 (윈도우 시스템 소리)
+                System.Media.SystemSounds.Asterisk.Play();
             }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            // 2단계 미션: 잡았을 때 효과음 + 메시지 박스 띄우기
+            System.Media.SystemSounds.Exclamation.Play();
+            MessageBox.Show("축하합니다~!");
         }
 
         
