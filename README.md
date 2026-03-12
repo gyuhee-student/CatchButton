@@ -5,16 +5,16 @@
 - 핵심기능: 버튼위에 마우스 올리면 도망가기, 버튼 올리면 커서 바뀌기, 마우스가 창 밖으로 안나가게 하기, 성공하면 성공메시지 나오기, 도망갈때 삐-소리 나기. 점수 계산 및 표시, 놓친 횟수가 30번 이상이면 게임 오버 및 버튼 비활성화 및 다시시작 버튼 등장. 다시시작 버튼 누르면 게임 재게(점수 및 놓친 횟수 초기화).
 - 화면구성: "나를 잡아봐" 버튼. 폼 제목에서 현재 버튼 좌표 표시. 
 ## 실행 화면
-- 1단계 코드의 실행 스크린샷
+- 1단계 코드의 실행 스크린샷(버튼 도망가기 구현)
 <img width="715" height="566" alt="image" src="https://github.com/user-attachments/assets/e93dc7fb-97ed-46dc-8b05-9e6ac0a8a013" />
 
-- 2단계 코드의 실행 스크린샷
+- 2단계 코드의 실행 스크린샷(시각/청각 효과 구현)
 <img width="793" height="585" alt="image" src="https://github.com/user-attachments/assets/049cbf0c-71bf-4d20-b7fb-5231bc20cb70" />
 
-- 3단계 코드의 실행 스크린샷
+- 3단계 코드의 실행 스크린샷(점수 넣기)
 <img width="725" height="552" alt="image" src="https://github.com/user-attachments/assets/11095766-1b51-437e-82f2-5486383d807e" />
 
-- 4단계 코드의 실행 스크린샷
+- 4단계 코드의 실행 스크린샷(게임오버 구현)
 <img width="1103" height="588" alt="image" src="https://github.com/user-attachments/assets/67172381-68e6-48e0-a6cc-20e728cfe43f" />
 
 <img width="788" height="683" alt="image" src="https://github.com/user-attachments/assets/06b607e0-9081-4504-88c6-2958118353eb" />
