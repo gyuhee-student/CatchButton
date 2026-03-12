@@ -17,6 +17,9 @@
 - 4단계 코드의 실행 스크린샷
 <img width="1103" height="588" alt="image" src="https://github.com/user-attachments/assets/67172381-68e6-48e0-a6cc-20e728cfe43f" />
 
+<img width="788" height="683" alt="image" src="https://github.com/user-attachments/assets/06b607e0-9081-4504-88c6-2958118353eb" />
+
+
 
 ## 구현 시 어려웠던 점
 - 중간에 github에 푸시가 제대로 되지 않는 문제가 있었지만, 병합하고 다시 푸시하는 방식으로 해결한 것으로 보인다.  
