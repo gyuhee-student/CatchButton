@@ -11,7 +11,8 @@
 - 2단계 코드의 실행 스크린샷
 <img width="793" height="585" alt="image" src="https://github.com/user-attachments/assets/049cbf0c-71bf-4d20-b7fb-5231bc20cb70" />
 - 3단계 코드의 실행 스크린샷
-(여기에 이미지 삽입)
+<img width="725" height="552" alt="image" src="https://github.com/user-attachments/assets/11095766-1b51-437e-82f2-5486383d807e" />
+
 
 - 4단계 코드의 실행 스크린샷
 (여기에 이미지 삽입)
