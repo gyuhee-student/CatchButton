@@ -7,7 +7,7 @@ namespace CatchButton
     public partial class Form1 : Form
     {
         // 1. 점수와 랜덤 객체를 클래스 레벨로 선언
-        int score = 0;
+        int score = 1000;
         int missCount = 0; // 4단계: 놓친 횟수 카운트
         Random random = new Random();
 
@@ -46,7 +46,7 @@ namespace CatchButton
         private void button1_MouseEnter(object sender, EventArgs e)
         {
             // 게임 오버 상태면 실행 안 함
-            if (missCount >= 20) return;
+            if (missCount >= 30) return;
 
             // 3단계 미션: 도망갈 때 10점 감점 및 횟수 증가
             score -= 10;
@@ -70,21 +70,21 @@ namespace CatchButton
                 myTarget.Location = new Point(nextX, nextY);
 
                 // 5. 시각적 피드백 (제목 표시줄 업데이트 - 내용pdf 5단계 참고)
-                this.Text = $"점수: {score} | 놓친 횟수: {missCount}/20 | 위치: ({nextX}, {nextY})";
+                this.Text = $"점수: {score} | 놓친 횟수: {missCount}/30 | 위치: ({nextX}, {nextY})";
 
                 // 추가 피드백: 커서와 소리
                 myTarget.Cursor = Cursors.Hand;
                 System.Media.SystemSounds.Asterisk.Play();
             }
 
-            // 4단계: 20번 놓치면 게임 오버
-            if (missCount >= 20)
+            // 4단계: 30번 놓치면 게임 오버
+            if (missCount >= 30)
             {
                 myTarget.Enabled = false;
                 btnReset.Visible = true;
                 btnReset.BringToFront(); // 버튼을 맨 앞으로
                 this.Text = "Game Over!";
-                MessageBox.Show("20번을 놓쳤습니다. Game Over!");
+                MessageBox.Show("30번을 놓쳤습니다. Game Over!");
             }
         }
 
@@ -113,7 +113,7 @@ namespace CatchButton
         // 4단계: 다시 시작 기능 구현
         private void BtnReset_Click(object sender, EventArgs e)
         {
-            score = 0;
+            score = 1000;
             missCount = 0;
             
             // 버튼 상태 복구
