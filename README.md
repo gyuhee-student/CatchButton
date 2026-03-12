@@ -14,9 +14,9 @@
 - 3단계 코드의 실행 스크린샷
 <img width="725" height="552" alt="image" src="https://github.com/user-attachments/assets/11095766-1b51-437e-82f2-5486383d807e" />
 
-
 - 4단계 코드의 실행 스크린샷
-(여기에 이미지 삽입)
+  <img width="2772" height="1744" alt="image" src="https://github.com/user-attachments/assets/4f70ad2e-8ae5-48e4-ad52-df9a2289ad86" />
+
 ## 구현 시 어려웠던 점
-- 컨트롤의 좌표를 계산하는 것이 어려웠지만, ...
-- 인터넷 연결은 Coilot의 도움을 받아 ...
+- 중간에 github에 푸시가 제대로 되지 않는 문제가 있었지만, 병합하고 다시 푸시하는 방식으로 해결한 것으로 보인다.  
+- 폼 이름을 코드에서는 text로 표현한다는 사실을 알게되었다.
